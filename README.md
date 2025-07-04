@@ -16,22 +16,6 @@ An advanced chess board built using **Pygame**, **python-chess**, and **Stockfis
 - ♛ Pawn promotion menu (queen, rook, bishop, knight)
 - 📍 File/rank labels and PGN input bar
 
----
-
-## 📂 Folder Structure
-
-chess-helper/
-├── chess_helper.py
-├── README.md
-├── stockfish # Stockfish engine executable
-├── images/
-│ ├── wp.png # white pawn
-│ ├── bq.png # black queen
-│ └── ... # other chess piece images
-├── sounds/
-│ ├── move.wav
-│ ├── capture.wav
-│ └── check.wav
 
 ---
 
@@ -41,9 +25,35 @@ chess-helper/
 
 ```bash
 pip install pygame python-chess
+```
 
 
 ### 2. Download Stockfish
 - Get it from: https://stockfishchess.org/download/
 - Place the executable in the same folder or update the STOCKFISH_PATH variable in chess_helper.py
 
+## ▶️ Running the App
+
+```bash
+python chess_helper.py
+```
+
+## 🎮 How to Use
+- Click on a piece to see legal moves (dots)
+
+- Click a destination square to move
+
+- Promotion? Choose your piece!
+
+- Adjust Elo with the slider at the bottom
+
+- Enter PGN at the top and press Enter
+
+- Use Reset and AI Toggle buttons below the board
+
+### 📜 License
+MIT License — free for personal or educational use.
+
+## 👤 Author
+Made with ❤️ by Ammar.
+Feel free to fork, star, and contribute!
